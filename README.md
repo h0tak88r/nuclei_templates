@@ -1,3 +1,4 @@
+# nuclei_templates
 # Collection of Nuclei Template
 https://github.com/ayadim/Nuclei-bug-hunter
 https://github.com/pikpikcu/nuclei-templates
@@ -100,4 +101,4 @@ https://github.com/badboy-sft/badboy_17-Nuclei-Templates-Collection
 https://github.com/NightRang3r/misc_nuclei_templates
 https://github.com/0XParthJ/Nuclei-Templates
 https://github.com/trungkay2/Nuclei-template
-https://github.com/ExpLangcn/NucleiTP# nuclei_templates
+https://github.com/ExpLangcn/NucleiTP
