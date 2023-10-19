@@ -1,4 +1,4 @@
-id: fuzz-reflection-xss
+id: Reflection
 
 info:
   name: Basic Reflection Potential XSS Detection
