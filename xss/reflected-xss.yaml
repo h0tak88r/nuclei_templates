@@ -1,38 +1,30 @@
-id: reflected-xss
+id: fuzz-reflection-xss
 
 info:
-  name: Reflected Cross Site Scripting
-  author: pdteam
+  name: Basic Reflection Potential XSS Detection
+  author: h0tak88r
   severity: medium
-  tags: xss,rxss,dast
 
-variables:
-  first: "{{rand_int(10000, 99999)}}"
-
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}"
-
     payloads:
       reflection:
-        - "'\"><{{first}}"
-
+        - '6842"><9967'
+    stop-at-first-match: true
     fuzzing:
       - part: query
         type: postfix
         mode: single
         fuzz:
           - "{{reflection}}"
-
-    stop-at-first-match: true
     matchers-condition: and
     matchers:
       - type: word
         part: body
         words:
           - "{{reflection}}"
-
       - type: word
         part: header
         words:
