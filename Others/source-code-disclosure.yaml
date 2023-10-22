@@ -1,7 +1,7 @@
 id: source-code-disclosure-wp-config
 info:
   name: Source Code Disclosure - wp-config.php
-  author: YourName
+  author: h0tak88r
   severity: info
   reference: Add reference if available
   description: |
