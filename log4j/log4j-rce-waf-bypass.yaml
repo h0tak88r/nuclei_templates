@@ -2,7 +2,8 @@ id: log4j-rce-detect-waf-bypass
 
 info:
   name: Apache Log4j RCE (CVE-2021-44228) Detection with WAF Bypass (CloudFlare etc.)
-  author: toramanemre
+  author: h0tak88r
+  severity: critical
 
 requests:
   - method: GET

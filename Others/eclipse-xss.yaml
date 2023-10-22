@@ -1,8 +1,8 @@
-id: Eclipse XSS
+id: eclipse-xss
 
 info:
   name: Eclipse Reflected XSS vulnerability
-  author: pikpikcu
+  author: h0tak88r
   severity: medium
 
 requests:

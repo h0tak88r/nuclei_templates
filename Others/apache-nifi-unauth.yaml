@@ -3,7 +3,7 @@ id: Apache Nifi-Unauthenticated
 info:
   name: Apache Nifi-Unauthenticated
   author: notnotnotveg
-  severity: informative
+  severity: low
 
 requests:
   - method: GET

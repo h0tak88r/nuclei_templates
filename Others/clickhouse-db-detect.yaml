@@ -1,8 +1,8 @@
-id: Clickhouse DB - Detect
+id: clickhous-db-detect
 
 info:
   name: Clickhouse DB - Detect
-  author: notnotnotveg
+  author: h0tak88r
   severity: informative
 
 requests:

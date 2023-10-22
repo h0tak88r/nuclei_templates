@@ -52,10 +52,10 @@ requests:
     matchers:
       - type: regex
         regex:
-          - "(?i)<\?php"
-          - "(?i)define\(['\"]DB_NAME['\"],"
-          - "(?i)define\(['\"]DB_USER['\"],"
-          - "(?i)define\(['\"]DB_PASSWORD['\"],"
-          - "(?i)define\(['\"]DB_HOST['\"],"
-          - "(?i)define\(['\"]DB_CHARSET['\"],"
-          - "(?i)define\(['\"]DB_COLLATE['\"],"
+          - "(?i)<\\?php"  # Updated to escape the "?" character
+          - "(?i)define\\(['\"]DB_NAME['\"],"
+          - "(?i)define\\(['\"]DB_USER['\"],"
+          - "(?i)define\\(['\"]DB_PASSWORD['\"],"
+          - "(?i)define\\(['\"]DB_HOST['\"],"
+          - "(?i)define\\(['\"]DB_CHARSET['\"],"
+          - "(?i)define\\(['\"]DB_COLLATE['\"],"

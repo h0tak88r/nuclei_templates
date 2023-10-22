@@ -2,7 +2,7 @@ id: flask-werkzeug-debug
 
 info:
   name: Flask Werkzeug Debugger Exposure
-  author: DhiyaneshDk
+  author: h0tak88r
   severity: low
   metadata:
     verified: true

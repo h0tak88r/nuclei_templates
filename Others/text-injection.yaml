@@ -1,9 +1,9 @@
-id: Arbitrary Text Injection
+id: text-injection
 
 info:
   name: Arbitrary Text Injection
-  author: Nikhil Kumar(https://www.linkedin.com/in/nikhil-kumar-4b9443166/)
-  severity: Low
+  author: h0tak88r
+  severity: info
   tags:  injection
 
   
