@@ -1,4 +1,4 @@
-id: basic-xss-prober
+id: basic-xss-in-url
 
 info:
   name: Basic XSS Prober
