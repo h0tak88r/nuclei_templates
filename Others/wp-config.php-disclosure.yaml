@@ -1,4 +1,4 @@
-id: wp-config-disclosure-fuzzing
+id: wp-config-disclosure
 info:
   name: WordPress Config Disclosure Fuzzing Template
   author: h0tak88r
@@ -9,7 +9,14 @@ http:
     path:
       - "{{BaseURL}}/wp-config.PHP"
       - "{{BaseURL}}/wp-config.php"
+      - "{{BaseURL}}/wp-config.php.bak"
+    matchers-condition: and
     matchers:
+      - type: word
+        words:
+          - dev
+        condition: and
+
       - type: status
         status:
           - 200
