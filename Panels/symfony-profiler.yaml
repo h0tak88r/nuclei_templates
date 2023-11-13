@@ -24,7 +24,6 @@ http:
       - "{{BaseURL}}/_profiler"
       - "{{BaseURL}}/_fragment"
 
-    stop-at-first-match: true
     matchers:
       - type: word
         part: body
