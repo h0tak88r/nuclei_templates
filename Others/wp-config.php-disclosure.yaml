@@ -10,13 +10,24 @@ http:
       - "{{BaseURL}}/wp-config.PHP"
       - "{{BaseURL}}/wp-config.php"
       - "{{BaseURL}}/wp-config.php.bak"
-    matchers-condition: and
+      - "{{BaseURL}}/.wp-config.php.swp"
+      - "{{BaseURL}}/wp-config.inc"
+      - "{{BaseURL}}/wp-config.old"
+      - "{{BaseURL}}/wp-config.txt"
+      - "{{BaseURL}}/wp-config.html"
+      - "{{BaseURL}}/wp-config.php.bak"
+      - "{{BaseURL}}/wp-config.php.dist"
+      - "{{BaseURL}}/wp-config.php.inc"
+      - "{{BaseURL}}/wp-config.php.old"
+      - "{{BaseURL}}/wp-config-php.save"
+      - "{{BaseURL}}/wp-config.php.swp"
+      - "{{BaseURL}}/wp-config.php.txt"
+      - "{{BaseURL}}/wp-config.php.zip"
+      - "{{BaseURL}}/wp- config.php.html"
+      - "{{BaseURL}}/wp-config.php~"
+      - "{{BaseURL}}/wp-config.new"
+      - "{{BaseURL}}/wp-config.php_"            
     matchers:
-      - type: word
-        words:
-          - dev
-        condition: and
-
       - type: status
         status:
           - 200
