@@ -1,0 +1,14 @@
+http:
+  - method: POST
+    path:
+      - "{{BaseURL}}/{{fuzz}}"
+      - "{{BaseURL}}/{{fuzz}}~"
+      - "{{BaseURL}}/{{fuzz}}/"
+      - "{{BaseURL}}//{{fuzz}}"
+
+    payloads:
+      fuzz: "{{pwd}}/Wordlists/h0tak88r_fuzz.txt"
+    matchers:
+      - type: status
+        status:
+          - 200
