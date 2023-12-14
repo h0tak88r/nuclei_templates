@@ -1,18 +1,20 @@
 id: h0tak88r-get-fuzzing
 info:
-  name: "H0tak88r Get Fuzzing"
+  name: Get-Based fuzzing
   author: h0tak88r
-  
+  severity: info
+
 http:
   - method: GET
     path:
       - "{{BaseURL}}/{{fuzz}}"
-      - "{{BaseURL}}/{{fuzz}}~"
       - "{{BaseURL}}/{{fuzz}}/"
+      - "{{BaseURL}}/{{fuzz}}~"
       - "{{BaseURL}}//{{fuzz}}"
 
+    attack: clusterbomb
     payloads:
-      fuzz: "{{pwd}}/Wordlists/h0tak88r_fuzz.txt"
+      fuzz: Wordlists/h0tak88r_fuzz.txt
     matchers:
       - type: status
         status:
