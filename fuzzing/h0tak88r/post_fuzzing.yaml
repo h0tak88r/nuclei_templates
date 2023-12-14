@@ -1,6 +1,6 @@
-id: h0tak88r-get-fuzzing
+id: h0tak88r-post-fuzzing
 info:
-  name: Get-Based fuzzing
+  name: POST-Based fuzzing
   author: h0tak88r
   severity: info
 
