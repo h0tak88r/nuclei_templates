@@ -11,7 +11,7 @@ info:
     - https://royduineveld.nl/magento-cacheleak-exploit/
   tags: magento
 
-requests:
+http:
   - method: GET
     path:
       - '{{BaseURL}}/var/resource_config.json'

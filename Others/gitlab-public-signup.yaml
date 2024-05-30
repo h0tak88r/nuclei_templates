@@ -6,7 +6,7 @@ info:
   severity: info
   tags: gitlab,misconfig
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/users/sign_in"

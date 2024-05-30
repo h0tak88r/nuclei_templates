@@ -12,7 +12,7 @@ info:
   metadata:
     shodan-query: http.title:"Create a pipeline - Go",html:"GoCD Version"
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/go/add-on/business-continuity/api/cruise_config"

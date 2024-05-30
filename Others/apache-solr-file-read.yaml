@@ -10,7 +10,7 @@ info:
     - https://nsfocusglobal.com/apache-solr-arbitrary-file-read-and-ssrf-vulnerability-threat-alert/
     - https://twitter.com/sec715/status/1373472323538362371
 
-requests:
+http:
   - raw:
       - |
         GET /solr/admin/cores?wt=json HTTP/1.1

@@ -7,7 +7,7 @@ info:
   description: A vulnerability in Lucee allows remote attackers to inject arbitrary Javascript into the responses returned by the server.
   tags: lucee,xss
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/lucees3ezf%3cimg%20src%3da%20onerror%3dalert('{{randstr}}')%3elujb7/admin/imgProcess.cfm"

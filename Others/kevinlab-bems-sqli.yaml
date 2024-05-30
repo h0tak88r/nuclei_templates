@@ -11,7 +11,7 @@ info:
     - https://packetstormsecurity.com/files/163572/
   tags: kevinlab,sqli
 
-requests:
+http:
   - raw:
       - |
         POST /http/index.php HTTP/1.1

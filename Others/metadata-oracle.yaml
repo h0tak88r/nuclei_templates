@@ -20,7 +20,7 @@ info:
     - https://www.mcafee.com/blogs/enterprise/cloud-security/how-an-attacker-could-use-instance-metadata-to-breach-your-app-in-aws/
   tags: exposure,config,oracle,proxy,misconfig,metadata
 
-requests:
+http:
   - raw:
       - |+
         GET http://{{hostval}}/opc/v1/instance HTTP/1.1

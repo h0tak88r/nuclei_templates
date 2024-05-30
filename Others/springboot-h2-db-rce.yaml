@@ -13,7 +13,7 @@ info:
   metadata:
     shodan-query: http.favicon.hash:116323821
 
-requests:
+http:
   - raw:
       - |
         POST /actuator/env HTTP/1.1

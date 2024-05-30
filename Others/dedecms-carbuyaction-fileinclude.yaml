@@ -8,7 +8,7 @@ info:
   reference: https://www.cnblogs.com/milantgh/p/3615986.html
   tags: dedecms
 
-requests:
+http:
   - method: GET
     path:
       - '{{BaseURL}}/plus/carbuyaction.php?dopost=return&code=../../'

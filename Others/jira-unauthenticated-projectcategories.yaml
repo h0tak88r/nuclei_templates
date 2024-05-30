@@ -7,7 +7,7 @@ info:
   tags: atlassian,jira
 
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/rest/api/2/projectCategory?maxResults=1000"

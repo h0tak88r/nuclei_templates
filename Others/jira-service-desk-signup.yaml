@@ -6,7 +6,7 @@ info:
   severity: medium
   tags: jira,atlassian,service
 
-requests:
+http:
   - method: POST
     path:
       - "{{BaseURL}}/servicedesk/customer/user/signup"

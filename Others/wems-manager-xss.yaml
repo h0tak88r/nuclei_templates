@@ -9,7 +9,7 @@ info:
   reference:
     - https://packetstormsecurity.com/files/155777/WEMS-Enterprise-Manager-2.58-Cross-Site-Scripting.html
 
-requests:
+http:
   - method: GET
     path:
       - '{{BaseURL}}/guest/users/forgotten?email=%22%3E%3Cscript%3Econfirm(document.domain)%3C/script%3E'

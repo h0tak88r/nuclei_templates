@@ -9,7 +9,7 @@ info:
     - https://www.exploit-db.com/exploits/49327
     - https://wpscan.com/vulnerability/10417
 
-requests:
+http:
   - raw:
       - |
         POST /wp-admin/admin-ajax.php?action=action_name HTTP/1.1

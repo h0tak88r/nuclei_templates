@@ -10,7 +10,7 @@ info:
     - https://www.fortinet.com/blog/threat-research/the-ghosts-of-mirai
   tags: optiLink,rce,oast,mirai
 
-requests:
+http:
   - raw:
       - |
         POST /boaform/admin/formTracert HTTP/1.1

@@ -7,7 +7,7 @@ info:
   reference: https://www.exploit-db.com/ghdb/4395
   tags: unauth,router
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/graphs/"

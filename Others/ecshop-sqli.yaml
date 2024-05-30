@@ -10,7 +10,7 @@ info:
     - https://phishingkittracker.blogspot.com/2019/08/userphp-ecshop-sql-injection-2017.html
   tags: sqli,php,ecshop
 
-requests:
+http:
   - raw:
       - |
         GET /user.php?act=login HTTP/1.1

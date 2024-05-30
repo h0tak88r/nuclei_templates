@@ -1,4 +1,4 @@
-id: dockercfg-config
+id: dockercfg-dotconfig
 
 info:
   name: Detect .dockercfg

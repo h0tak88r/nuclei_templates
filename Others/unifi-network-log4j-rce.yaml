@@ -12,7 +12,7 @@ info:
   metadata:
     shodan-query: http.title:"UniFi Network"
 
-requests:
+http:
   - raw:
       - |
         POST /api/login HTTP/1.1

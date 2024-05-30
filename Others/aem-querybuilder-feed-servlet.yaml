@@ -8,7 +8,7 @@ info:
   tags: aem
 
 
-requests:
+http:
   - method: GET
     path:
       - '{{BaseURL}}/bin/querybuilder.feed'

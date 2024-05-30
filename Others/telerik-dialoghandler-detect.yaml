@@ -4,7 +4,7 @@ info:
   author: organiccrap
   severity: low
   # https://captmeelo.com/pentest/2018/08/03/pwning-with-telerik.html
-requests:
+http:
   - method: GET
     path:
       - '{{BaseURL}}/Telerik.Web.UI.DialogHandler.aspx'

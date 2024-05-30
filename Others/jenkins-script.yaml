@@ -6,7 +6,7 @@ info:
   severity: critical
   reference: https://hackerone.com/reports/403402
   tags: jenkins,rce,devops
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/script/"

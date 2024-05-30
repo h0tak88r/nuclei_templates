@@ -8,7 +8,7 @@ info:
   reference: https://www.exploit-db.com/ghdb/6998
   tags: wordpress,listing,plugin
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/wp-content/plugins/ultimate-member/"

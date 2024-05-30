@@ -7,7 +7,7 @@ info:
   reference: https://github.com/detectify/ugly-duckling/blob/master/modules/crowdsourced/clockwork-dashboard-exposure.json
   tags: exposure,unauth
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/__clockwork/latest"

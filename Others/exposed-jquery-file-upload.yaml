@@ -7,7 +7,7 @@ info:
   severity: medium
   tags: exposure,jquery
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/jquery-file-upload/server/php/"

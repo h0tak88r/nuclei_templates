@@ -10,7 +10,7 @@ info:
     - https://twitter.com/XHackerx007/status/1435139576314671105
   tags: aem
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/groovyconsole"

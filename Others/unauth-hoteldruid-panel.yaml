@@ -7,7 +7,7 @@ info:
   reference: https://www.hoteldruid.com/
   tags: hoteldruid,panel,unauth
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/hoteldruid/inizio.php"

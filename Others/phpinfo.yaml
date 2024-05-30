@@ -5,7 +5,7 @@ info:
   author: bauthard
   severity: low
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/php.php"

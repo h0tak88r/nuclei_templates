@@ -10,7 +10,7 @@ info:
   metadata:
     fofa-query: 'body="/imc/javax.faces.resource/images/login_help.png.jsf?ln=primefaces-imc-new-webui"'
 
-requests:
+http:
   - raw:
       - |
         POST /imc/javax.faces.resource/dynamiccontent.properties.xhtml HTTP/1.1

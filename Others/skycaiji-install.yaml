@@ -6,7 +6,7 @@ info:
   severity: high
   tags: tech,skycaiji,exposure,misconfig
 
-requests:
+http:
   - method: GET
     path:
       - '{{BaseURL}}/index.php?s=/install/index/index'

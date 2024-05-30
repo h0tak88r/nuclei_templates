@@ -6,7 +6,7 @@ info:
   severity: medium
   tags: nginx,xss,status
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/status%3E%3Cscript%3Ealert(31337)%3C%2Fscript%3E"

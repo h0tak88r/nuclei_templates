@@ -7,7 +7,7 @@ info:
   reference: https://www.exploit-db.com/ghdb/6797
   tags: panel,jfrog
 
-requests:
+http:
   - method: GET
     path:
       - '{{BaseURL}}/ui/login/'

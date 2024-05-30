@@ -6,7 +6,7 @@ info:
   severity: info
   tags: drupal
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/user/0"

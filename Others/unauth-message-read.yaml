@@ -8,7 +8,7 @@ info:
   reference: https://docs.rocket.chat/guides/security/security-updates
   tags: rocketchat,unauth
 
-requests:
+http:
   - raw:
       - |
         POST /api/v1/method.callAnon/cve_exploit HTTP/1.1

@@ -7,7 +7,7 @@ info:
   reference: https://www.exploit-db.com/ghdb/5003
   tags: sqlite
 
-requests:
+http:
   - method: GET
     path:
       - '{{BaseURL}}/sqlite/'

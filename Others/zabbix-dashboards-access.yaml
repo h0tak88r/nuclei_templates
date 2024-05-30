@@ -10,7 +10,7 @@ info:
     - https://packetstormsecurity.com/files/163657/zabbix5x-sqlxss.txt
   tags: zabbix,unauth
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/zabbix/zabbix.php?action=dashboard.list"

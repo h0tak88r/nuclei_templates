@@ -6,7 +6,7 @@ info:
   severity: low
   tags: elastic,unauth,elasticsearch
 
-requests:
+http:
   - method: GET
     path:
       - '{{BaseURL}}/_cat/indices?v'

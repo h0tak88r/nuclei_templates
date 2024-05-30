@@ -7,7 +7,7 @@ info:
   reference: https://mp.weixin.qq.com/s?__biz=Mzg3NDU2MTg0Ng==&mid=2247486018&idx=1&sn=d744907475a4ea9ebeb26338c735e3e9
   tags: sponip,rce,oast,network
 
-requests:
+http:
   - raw:
       - |
         POST /php/ping.php HTTP/1.1

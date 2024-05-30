@@ -7,7 +7,7 @@ info:
   reference: https://mp.weixin.qq.com/s/g4YNI6UBqIQcKL0TRkKWlw
   tags: natshell,rce
 
-requests:
+http:
   - method: POST
     path:
       - "{{BaseURL}}/debug.php"

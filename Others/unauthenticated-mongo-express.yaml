@@ -7,7 +7,7 @@ info:
   reference: https://www.exploit-db.com/ghdb/5684
   tags: mongo,unauth
 
-requests:
+http:
   - method: GET
     path:
       - '{{BaseURL}}'

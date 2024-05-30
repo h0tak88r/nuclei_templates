@@ -7,7 +7,7 @@ info:
   reference: https://developer.atlassian.com/cloud/jira/platform/rest/v2/api-group-screens/#api-rest-api-2-screens-get
   tags: atlassian,jira
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/rest/api/2/screens"

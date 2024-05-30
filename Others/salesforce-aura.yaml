@@ -7,7 +7,7 @@ info:
   reference: https://www.enumerated.de/index/salesforce
   tags: aura,unauth,salesforce,exposure
 
-requests:
+http:
   - method: POST
     path:
       - "{{BaseURL}}/aura"

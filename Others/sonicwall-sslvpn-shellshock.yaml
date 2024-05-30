@@ -10,7 +10,7 @@ info:
     - https://darrenmartyn.ie/2021/01/24/visualdoor-sonicwall-ssl-vpn-exploit/
   tags: shellshock,sonicwall,rce,vpn
 
-requests:
+http:
   - raw:
       - |
         GET /cgi-bin/jarrewrite.sh HTTP/1.1

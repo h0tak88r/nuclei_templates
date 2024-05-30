@@ -24,7 +24,7 @@ info:
     cvss-score: 9.3
     cwe-id: CWE-441
 
-requests:
+http:
   - raw:
       - |+
         GET http://{{hostval}}/computeMetadata/v1/project/ HTTP/1.1

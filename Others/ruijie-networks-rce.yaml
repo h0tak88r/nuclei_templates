@@ -9,7 +9,7 @@ info:
     - https://www.ruijienetworks.com # vendor homepage
   tags: ruijie,rce,network
 
-requests:
+http:
   - raw:
       - |
         POST /guest_auth/guestIsUp.php HTTP/1.1

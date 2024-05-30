@@ -8,7 +8,7 @@ info:
   tags: aem
 
 
-requests:
+http:
   - method: GET
     path:
       - '{{BaseURL}}/bin/querybuilder.json.;%0aa.css?path=/home&p.hits=full&p.limit=-1'

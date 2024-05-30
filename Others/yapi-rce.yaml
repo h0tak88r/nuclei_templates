@@ -12,7 +12,7 @@ info:
     - https://twitter.com/sec715/status/1415484190561161216
     - https://github.com/YMFE/yapi
 
-requests:
+http:
   - raw:
       - | # REQUEST 1
         POST /api/user/reg HTTP/1.1

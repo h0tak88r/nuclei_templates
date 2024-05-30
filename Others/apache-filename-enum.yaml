@@ -10,7 +10,7 @@ info:
   severity: low
   tags: apache,misconfig
 
-requests:
+http:
   - method: GET
     headers:
       Accept: "fake/value"

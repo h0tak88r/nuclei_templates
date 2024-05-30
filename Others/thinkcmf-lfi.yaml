@@ -10,7 +10,7 @@ info:
     win-payload: "../../../../../../../../../../../../../../../../windows/win.ini"
     unix-payload: "../../../../../../../../../../../../../../../../etc/passwd"
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/?a=display&templateFile=README.md"

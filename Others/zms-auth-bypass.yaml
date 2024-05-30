@@ -8,7 +8,7 @@ info:
   reference: https://www.exploit-db.com/exploits/48880
   tags: auth-bypass,zms
 
-requests:
+http:
   - raw:
       - |
         POST /zms/admin/index.php HTTP/1.1

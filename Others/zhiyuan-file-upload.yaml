@@ -8,7 +8,7 @@ info:
   reference: https://www.programmersought.com/article/92658169875/
   tags: zhiyuan,rce,upload
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/seeyon/thirdpartyController.do.css/..;/ajax.do"

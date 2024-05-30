@@ -7,7 +7,7 @@ info:
   reference: https://make.wordpress.org/core/handbook/testing/reporting-security-vulnerabilities/#why-are-there-path-disclosures-when-directly-loading-certain-files
   tags: debug,wordpress,fpd
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/wp-includes/rss-functions.php"

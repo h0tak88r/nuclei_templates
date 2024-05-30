@@ -7,7 +7,7 @@ info:
   reference: https://gitlab.com/gitlab-org/gitlab-foss/-/issues/40158
   tags: gitlab,enum,misconfig,disclosure
 
-requests:
+http:
   - raw:
       - |
         GET /api/v4/users/{{uid}} HTTP/1.1

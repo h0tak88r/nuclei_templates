@@ -8,7 +8,7 @@ info:
   reference: https://www.exploit-db.com/exploits/49802
   tags: hasura,rce,graphql
 
-requests:
+http:
   - raw:
       - |
         POST /v2/query HTTP/1.1

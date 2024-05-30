@@ -10,7 +10,7 @@ info:
     - https://wordpress.org/plugins/pie-register/
   tags: wordpress,redirect,wp-plugin,pieregister
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/?piereg_logout_url=true&redirect_to=https://example.com"

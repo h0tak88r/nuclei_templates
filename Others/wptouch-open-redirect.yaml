@@ -15,7 +15,7 @@ info:
   reference: https://cxsecurity.com/issue/WLB-2020030114
   tags: wp-plugin,redirect,wordpress
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/?wptouch_switch=desktop&redirect=https://example.com/"

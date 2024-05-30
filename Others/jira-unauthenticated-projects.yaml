@@ -6,7 +6,7 @@ info:
   severity: info
   tags: atlassian,jira
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/rest/api/2/project?maxResults=100"

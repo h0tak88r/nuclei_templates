@@ -8,7 +8,7 @@ info:
   reference: https://packetstormsecurity.com/files/86721/Oracle-Siebel-Loyalty-8.1-Cross-Site-Scripting.html
   tags: xss,oracle
 
-requests:
+http:
   - method: GET
     path:
       - '{{BaseURL}}/loyalty_enu/start.swe/%3E%22%3E%2Fscript%3E%3Cscript%3Ealert%28document.domain%29%3C%2Fscript%3E'

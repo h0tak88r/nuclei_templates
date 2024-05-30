@@ -9,7 +9,7 @@ info:
     - https://y4er.com/post/metersphere-plugincontroller-pre-auth-rce/
     - https://github.com/metersphere/metersphere
 
-requests:
+http:
   - raw:
       - |
         POST /plugin/add HTTP/1.1

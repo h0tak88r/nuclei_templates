@@ -7,7 +7,7 @@ info:
   reference: https://www.thruk.org/download.html
   tags: xss,thruk
 
-requests:
+http:
   - raw:
       - |
         POST /thruk/cgi-bin/login.cgi HTTP/1.1

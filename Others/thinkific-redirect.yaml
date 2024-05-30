@@ -7,7 +7,7 @@ info:
   tags: redirect
 
 
-requests:
+http:
   - method: GET
 
     path:

@@ -10,7 +10,7 @@ info:
     - https://github.com/wyzxxz/fastjson_rce_tool
   tags: fastjson,rce,deserialization,oast
 
-requests:
+http:
   - raw:
       - |
         POST / HTTP/1.1

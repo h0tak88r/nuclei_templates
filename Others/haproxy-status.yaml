@@ -7,7 +7,7 @@ info:
   reference: https://www.exploit-db.com/ghdb/4191
   tags: logs,haproxy
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/haproxy-status"

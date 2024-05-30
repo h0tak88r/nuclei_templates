@@ -5,7 +5,7 @@ info:
   author: organiccrap
   severity: low
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/Telerik.Web.UI.WebResource.axd?type=rau"

@@ -6,7 +6,7 @@ info:
   severity: critical
   tags: ofbiz,oast,log4j,rce,apache,jndi
 
-requests:
+http:
   - raw:
       - |
         GET /webtools/control/main HTTP/1.1

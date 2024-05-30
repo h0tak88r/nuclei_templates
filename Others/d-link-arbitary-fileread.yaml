@@ -7,7 +7,7 @@ info:
   reference: https://suid.ch/research/DAP-2020_Preauth_RCE_Chain.html
   tags: dlink,lfi
 
-requests:
+http:
   - method: POST
     path:
       - "{{BaseURL}}/cgi-bin/webproc"

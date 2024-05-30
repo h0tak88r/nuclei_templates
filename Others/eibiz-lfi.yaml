@@ -8,7 +8,7 @@ info:
   reference: https://packetstormsecurity.com/files/158943/Eibiz-i-Media-Server-Digital-Signage-3.8.0-File-Path-Traversal.html
   tags: windows,lfi,eibiz
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/dlibrary/null?oldfile=../../../../../../windows/win.ini&library=null"

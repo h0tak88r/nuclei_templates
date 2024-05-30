@@ -10,7 +10,7 @@ info:
     - https://www.exploit-db.com/exploits/37481
   tags: wordpress,xss,wp-plugin
 
-requests:
+http:
   - method: GET
     path:
       - '{{BaseURL}}/wp-content/plugins/socialfit/popup.php?service=googleplus&msg=%3C%2Fscript%3E%3Cscript%3Ealert%28document.domain%29%3C%2Fscript%3E'

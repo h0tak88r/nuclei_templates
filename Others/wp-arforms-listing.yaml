@@ -7,7 +7,7 @@ info:
   reference: https://www.exploit-db.com/ghdb/6424
   tags: wordpress,listing,plugin
 
-requests:
+http:
 
   - method: GET
     path:

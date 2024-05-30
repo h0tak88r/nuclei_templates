@@ -7,7 +7,7 @@ info:
   reference: https://blog.csdn.net/ystyaoshengting/article/details/82734888
   tags: dedecms,redirect
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/plus/download.php?open=1&link=aHR0cHM6Ly9ldmlsLmNvbQo="

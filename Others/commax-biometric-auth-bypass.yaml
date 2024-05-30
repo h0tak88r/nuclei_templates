@@ -10,7 +10,7 @@ info:
     - https://www.zeroscience.mk/en/vulnerabilities/ZSL-2021-5661.php
   tags: commax,auth-bypass
 
-requests:
+http:
   - raw:
       - |
         GET /db_dump.php HTTP/1.1

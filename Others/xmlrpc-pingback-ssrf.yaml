@@ -7,7 +7,7 @@ info:
   severity: high
   tags: ssrf,generic,xmlrpc
 
-requests:
+http:
   - raw:
       - |
         POST /xmlrpc/pingback HTTP/1.1

@@ -8,7 +8,7 @@ info:
   reference: https://www.cnblogs.com/0day-li/p/13650452.html
   tags: rce,sangfor
 
-requests:
+http:
   - method: POST
     path:
       - "{{BaseURL}}/api/edr/sangforinter/v2/cssp/slog_client?token=eyJtZDUiOnRydWV9"

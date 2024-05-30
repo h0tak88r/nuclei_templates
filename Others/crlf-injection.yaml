@@ -7,7 +7,7 @@ info:
   description: Improper sanitization of CRLF sequences.
   tags: crlf,generic
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/%0D%0ASet-Cookie:crlfinjection=crlfinjection"

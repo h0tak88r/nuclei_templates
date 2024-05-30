@@ -8,7 +8,7 @@ info:
   reference: https://packetstormsecurity.com/files/136658/RockMongo-1.1.8-Cross-Site-Request-Forgery-Cross-Site-Scripting.html
   tags: rockmongo,xss
 
-requests:
+http:
   - method: POST
     path:
       - "{{BaseURL}}/index.php?action=login.index"

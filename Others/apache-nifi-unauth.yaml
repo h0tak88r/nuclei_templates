@@ -5,7 +5,7 @@ info:
   author: notnotnotveg
   severity: low
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/nifi-api/flow/current-user"

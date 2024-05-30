@@ -5,7 +5,7 @@ info:
   author: h0tak88r
   severity: medium
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/help/index.jsp?view=<script>alert(document.cookie)</script>"

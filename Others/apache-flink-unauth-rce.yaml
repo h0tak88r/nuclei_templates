@@ -10,7 +10,7 @@ info:
     - https://adamc95.medium.com/apache-flink-1-9-x-part-1-set-up-5d85fd2770f3
     - https://github.com/LandGrey/flink-unauth-rce
 
-requests:
+http:
   - raw:
       - |
         POST /jars/upload HTTP/1.1

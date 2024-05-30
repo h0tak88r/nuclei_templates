@@ -8,7 +8,7 @@ info:
   reference: https://www.zeroscience.mk/en/vulnerabilities/ZSL-2020-5579.php
   tags: qihang,exposure
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/xml/User/User.xml"

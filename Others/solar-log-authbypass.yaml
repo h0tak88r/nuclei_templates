@@ -8,7 +8,7 @@ info:
   reference: https://www.exploit-db.com/exploits/49986
   tags: solarlog,auth-bypass
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/lan.html"

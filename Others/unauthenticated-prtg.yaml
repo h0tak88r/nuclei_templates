@@ -7,7 +7,7 @@ info:
   reference: https://www.exploit-db.com/ghdb/5808
   tags: config,unauth,prtg
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/sensorlist.htm"

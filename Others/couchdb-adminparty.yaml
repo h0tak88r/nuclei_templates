@@ -7,7 +7,7 @@ info:
   description: Requests made against CouchDB are done in the context of an admin user.
   tags: couchdb
 
-requests:
+http:
   - method: GET
     path:
       - '{{BaseURL}}/_users/_all_docs'

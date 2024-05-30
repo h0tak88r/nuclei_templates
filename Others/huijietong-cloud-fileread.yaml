@@ -5,7 +5,7 @@ info:
   severity: high
   tags: huijietong,lfi
 
-requests:
+http:
   - method: POST
     path:
       - "{{BaseURL}}/fileDownload?action=downloadBackupFile"

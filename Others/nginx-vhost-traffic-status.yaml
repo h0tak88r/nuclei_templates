@@ -7,7 +7,7 @@ info:
   severity: low
   tags: status,nginx,misconfig
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/status"

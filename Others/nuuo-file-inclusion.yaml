@@ -7,7 +7,7 @@ info:
   reference: https://www.exploit-db.com/exploits/40211
   tags: nuuo,lfi
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/css_parser.php?css=css_parser.php"

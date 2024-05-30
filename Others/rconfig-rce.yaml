@@ -1,4 +1,4 @@
-id: rconfig-rce
+id: rconfig rce
 
 info:
   name: rConfig 3.9.5 - Remote Code Execution
@@ -10,7 +10,7 @@ info:
     - https://www.rconfig.com/downloads/rconfig-3.9.5.zip
     - https://www.exploit-db.com/exploits/48878
 
-requests:
+http:
   - raw:
       - |
         POST /lib/crud/userprocess.php HTTP/1.1

@@ -7,7 +7,7 @@ info:
   reference: https://cure53.de/pentest-report_keycloak.pdf
   tags: keycloak,xss
 
-requests:
+http:
   - raw:
       - |
         POST /auth/realms/master/clients-registrations/openid-connect HTTP/1.1

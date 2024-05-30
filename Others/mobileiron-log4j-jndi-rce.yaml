@@ -12,7 +12,7 @@ info:
     - https://github.com/rwincey/CVE-2021-44228-Log4j-Payloads/blob/main/MobileIron
   tags: rce,jndi,oast,log4j,mobileiron
 
-requests:
+http:
   - raw:
       - |
         POST /mifs/j_spring_security_check HTTP/1.1

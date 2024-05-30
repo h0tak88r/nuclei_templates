@@ -10,7 +10,7 @@ info:
     - https://www.acunetix.com/vulnerabilities/web/sap-icf-sap-public-info-sensitive-information-disclosure/
     - https://github.com/Jean-Francois-C/SAP-Security-Audit
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/sap/public/info"

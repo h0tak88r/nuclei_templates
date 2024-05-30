@@ -8,7 +8,7 @@ info:
   reference: https://www.zeroscience.mk/en/vulnerabilities/ZSL-2019-5559.php
   tags: iot,redirect
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/homeautomation_v3_3_2/api.php?do=groups/toggle&groupid=1&status=1&redirect=https://example.com/"

@@ -7,7 +7,7 @@ info:
   reference: https://github.com/danielmiessler/SecLists/blob/master/Usernames/Names/malenames-usa-top1000.txt
   tags: gitlab,enum,misconfig,fuzz
 
-requests:
+http:
   - raw:
       - |
         GET /users/{{user}}/exists HTTP/1.1

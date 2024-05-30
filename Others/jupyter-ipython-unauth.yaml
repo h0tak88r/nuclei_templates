@@ -7,7 +7,7 @@ info:
   description: Unauthenticated access to Jupyter instance
   tags: unauth
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/ipython/tree"

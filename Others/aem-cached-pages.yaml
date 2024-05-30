@@ -7,7 +7,7 @@ info:
   tags: aem
   reference: https://twitter.com/AEMSecurity/status/1244965623689609217
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/dispatcher/invalidate.cache"

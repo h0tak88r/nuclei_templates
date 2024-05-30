@@ -8,7 +8,7 @@ info:
   description: The PUT method is enabled on the web server, allowing for arbitrary file uploads.
   tags: injection
 
-requests:
+http:
   - raw:
       - |
         PUT /testing-put.txt HTTP/1.1

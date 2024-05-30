@@ -8,7 +8,7 @@ info:
   tags: empirecms,xss
 
 
-requests:
+http:
   - method: GET
     path:
       - "{{BaseURL}}/e/ViewImg/index.html?url=javascript:alert(document.domain)"
