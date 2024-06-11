@@ -27,6 +27,7 @@ http:
       - "{{BaseURL}}/wp-config.new"
       - "{{BaseURL}}/wp-config.php_"
     matchers:
+      condition: and
       - type: word
         words:
           - "DB_NAME"
