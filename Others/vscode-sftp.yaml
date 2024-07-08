@@ -2,7 +2,7 @@ id: vscode-sftp-exposure
 
 info:
   name: VSCode SFTP Configuration Exposure
-  author: SirBugs
+  author: h0tak88r
   severity: high
   description: Checks for exposed VSCode SFTP configuration file.
   tags: exposure
@@ -14,6 +14,9 @@ http:
 
     matchers-condition: and
     matchers:
+      - type: status
+        status:
+          - 200
       - type: word
         condition: or
         words:
